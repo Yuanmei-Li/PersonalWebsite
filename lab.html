@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimental Setup | Yuanmei Li</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css">
+</head>
+<body>
+
+    <canvas id="wave-canvas"></canvas>
+    
+    <div class="glass-container">
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <span class="nav-name">Yuanmei Li</span>
+                <span class="nav-title">Hydrodynamic & Quantum & PILOT</span>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                      <i class="fas fa-sun"></i>
+                    </button>
+                </li>        
+                <li><a href="index.html" class="nav-link hover-underline">Home</a></li>
+                <li><a href="research.html" class="nav-link hover-underline">Research</a></li>
+                <li><a href="publications.html" class="nav-link hover-underline">Publications</a></li>
+                <li class="active"><a href="lab.html" class="nav-link hover-underline">Lab</a></li>
+                <li><a href="blog.html" class="nav-link hover-underline">Blog</a></li>
+                <li><a href="designs.html" class="nav-link hover-underline">Designs</a></li>   
+            </ul>
+        </nav>
+
+        <header class="page-header">
+            <h1>Experimental Setup</h1>
+            <p class="subtitle">Custom apparatus for hydrodynamic quantum analogs research at National Demonstration Center For Experimental Physics Education, Nanjing University</p>
+        </header>
+
+        <section class="equipment-section">
+            <div class="equipment-card">
+                <div class="equipment-header">
+                    <h2><i class="fas fa-vibration"></i> Vibration System</h2>
+                    <div class="equipment-specs">
+                        <span class="spec"><i class="fas fa-tachometer-alt"></i> RIGOL DG1032Z Function Generator</span>
+                        <span class="spec"><i class="fas fa-bolt"></i> SA-PA003 Power Amplifier</span>
+                        <span class="spec"><i class="fas fa-ruler-combined"></i> Passive Subwoofer Platform</span>
+                    </div>
+                </div>
+                
+                <div class="equipment-content">
+                    <div class="equipment-description">
+                        <h3>Precision Vertical Excitation</h3>
+                        <p>
+                            This vibration system is carefully calibrated to achieve stable vertical excitation for hydrodynamic quantum analog studies:
+                        </p>
+                        <ul>
+                            <li>Real-time accelerometer feedback with 0.00048g resolution</li>
+                            <li>Anti-resonance isolation mounting with damping blocks</li>
+                            <li>Vibration platform leveled using standard methods</li>
+                            <li>3D-printed structures that can be flexibly fixed on the vibration platform</li>
+                        </ul>
+                        <p>
+                            The system maintains stable Faraday wave patterns for extended periods, enabling detailed trajectory studies.
+                        </p>
+                    </div>
+                    
+                    <div class="swiper equipment-gallery">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/images/lab/vibration-system-with-accelerometer.jpg" alt="Subwoofer vibration table with accelerometer, low-frequency imaging device, 3D-printed structure, and carbon fiber disk">
+                                <div class="gallery-caption">Subwoofer vibration table with accelerometer, low-frequency imaging device, 3D-printed structure, and carbon fiber disk</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/lab/vibration-system-signal-control.jpg" alt="Signal input and control system">
+                                <div class="gallery-caption">Signal input and control system</div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>Challenges & Future Development</h3>
+                    <p>
+                        While the system produces stable walking droplet phenomena and Faraday waves, we've observed some nonlinear effects in our operating frequency range (~80Hz), including unexpected frequency peaks and beat phenomena. Despite testing multiple subwoofers, these artifacts persist, likely due to mechanical nonlinearities in the speaker components.
+                    </p>
+                    <p>
+                        I'm currently designing a more stable, cost-effective vibration platform inspired by speaker mechanisms, which will be shared in my <a href="designs.html" class="nav-link">Designs</a> section once developed.
+                    </p>
+                    <!-- 给图片添加 class 属性 -->
+                    <img src="assets/images/lab/vibration-platform-sketch.jpg" alt="Vibration Platform Sketch" class="centered-rounded-shadowed">
+                </div>
+            </div>
+
+            <div class="equipment-card">
+                <div class="equipment-header">
+                    <h2><i class="fas fa-eye"></i> Imaging System</h2>
+                    <div class="equipment-specs">
+                        <span class="spec"><i class="fas fa-camera"></i> Industrial High-Speed Camera</span>
+                        <span class="spec"><i class="fas fa-lightbulb"></i> High-Power LED Array</span>
+                        <span class="spec"><i class="fas fa-ruler-combined"></i> Precision Calibration</span>
+                    </div>
+                </div>
+                
+                <div class="equipment-content">
+                    <div class="equipment-description">
+                        <h3>Advanced Visualization</h3>
+                        <p>
+                            Custom imaging solutions for different experimental needs:
+                        </p>
+                        <ul>
+                            <li>High-speed tracking at 120-1000fps</li>
+                            <li>Color-striped illumination for enhanced contrast</li>
+                            <li>Smartphone rig for low-frequency observations</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="swiper equipment-gallery">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/images/lab/imaging-system-panoramic.jpg" alt="Panoramic view of the Imaging System">
+                                <div class="gallery-caption">Panoramic view of the Imaging System</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/lab/imaging-system-bouncing-droplets.gif" alt="A pair of bouncing droplets captured by the high-speed camera">
+                                <div class="gallery-caption">A pair of bouncing droplets captured by the high-speed camera</div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>Future Improvements</h3>
+                    <p>
+                        Future developments may include exploring schlieren imaging techniques for wave field reconstruction to further enhance our visualization capabilities.
+                    </p>
+                </div>
+            </div>
+
+            <div class="equipment-card">
+                <div class="equipment-header">
+                    <h2><i class="fas fa-tint"></i> Droplet Generator</h2>
+                    <div class="equipment-specs">
+                        <span class="spec"><i class="fas fa-syringe"></i> Precision Syringe Pump</span>
+                        <span class="spec"><i class="fas fa-sliders-h"></i> Adjustable Height Mechanism</span>
+                        <span class="spec"><i class="fas fa-cogs"></i> Modular Design</span>
+                    </div>
+                </div>
+                
+                <div class="equipment-content">
+                    <div class="equipment-description">
+                        <h3>Controlled Droplet Generation</h3>
+                        <p>
+                            Custom solutions for consistent droplet production:
+                        </p>
+                        <ul>
+                            <li>Modular design for easy adjustment and maintenance</li>
+                            <li>Precision control over droplet size and release timing</li>
+                            <li>Exploring direct droplet generation on hydrophobic surfaces</li>
+                        </ul>
+                        <p>
+                            Combined with ImageJ and Python analysis pipelines for quantitative measurements.
+                        </p>
+                    </div>
+                    
+                    <div class="swiper equipment-gallery">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/images/lab/droplet-generator-schematic.jpg" alt="Schematic diagram of the Droplet Generator">
+                                <div class="gallery-caption">Schematic diagram of the Droplet Generator</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/lab/droplet-generator-real.jpg" alt="Physical object of the Droplet Generator">
+                                <div class="gallery-caption">Physical object of the Droplet Generator</div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="note-card">
+                    <h3>Future Improvements</h3>
+                    <p>
+                        I've designed a more affordable modular droplet generator (see <a href="designs.html" class="nav-link">Designs</a>), while continuing to explore the fascinating possibilities of direct droplet generation on oil-repellent surfaces.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="lab-notes">
+            <h2><i class="fas fa-clipboard-list"></i> Experimental Protocols</h2>
+            <div class="notes-grid">
+                <div class="note-card">
+                    <h3>Environmental Control</h3>
+                    <p>
+                        Maintain darkroom conditions during imaging sessions. Cover silicone oil when not in use to prevent dust contamination.
+                    </p>
+                </div>
+                <div class="note-card">
+                    <h3>Data Collection</h3>
+                    <p>
+                        Conduct extended measurements during low-noise periods. Capture reference frames before each experiment.
+                    </p>
+                </div>
+                <div class="note-card">
+                    <h3>Surface Preparation</h3>
+                    <p>
+                        Use black anodized surfaces to minimize reflections. Clean with isopropyl alcohol before each run.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="main-footer">
+        <div class="glass-container">
+            <p> 2025 Yuanmei Li | Nanjing University | Last Update: <span id="update-date"></span></p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize all Swiper galleries
+        document.querySelectorAll('.swiper').forEach(swiperEl => {
+            new Swiper(swiperEl, {
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true
+                },
+                loop: true,
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 20,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true
+                }
+            });
+        });
+    </script>
+    
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

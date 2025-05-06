@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Yuanmei Li</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+    <canvas id="wave-canvas"></canvas>
+    
+    <div class="glass-container">
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <span class="nav-name">Yuanmei Li</span>
+                <span class="nav-title">Hydrodynamic & Quantum & PILOT</span>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                      <i class="fas fa-sun"></i>
+                    </button>
+                </li>        
+                <li><a href="index.html" class="nav-link hover-underline">Home</a></li>
+                <li class="active"><a href="research.html" class="nav-link hover-underline">Research</a></li>
+                <li><a href="publications.html" class="nav-link hover-underline">Publications</a></li>
+                <li><a href="lab.html" class="nav-link hover-underline">Lab</a></li>
+                <li><a href="blog.html" class="nav-link hover-underline">Blog</a></li>
+                <li><a href="designs.html" class="nav-link hover-underline">Designs</a></li>    
+            </ul>
+        </nav>
+
+        <header class="page-header">
+            <h1>Research Focus</h1>
+            <p class="subtitle">Walking droplets, hydrodynamic quantum analogs, and their quantum-like behaviors</p>
+        </header>
+
+        <section class="research-areas">
+            <div class="research-card hover-grow">
+                <div class="research-icon">
+                    <i class="fas fa-tint"></i>
+                </div>
+                <h2>Walking Droplets</h2>
+                <p>
+                    Investigating the fascinating dynamics of droplets walking on vibrating fluid surfaces,
+                    which exhibit wave-particle duality reminiscent of quantum systems.
+                </p>
+                <a href="#walking-droplets" class="btn-secondary">Learn More</a>
+            </div>
+            
+            <div class="research-card hover-grow">
+                <div class="research-icon">
+                    <i class="fas fa-atom"></i>
+                </div>
+                <h2>Hydrodynamic Quantum Analogs</h2>
+                <p>
+                    Exploring how macroscopic fluid systems can recreate quantum phenomena like
+                    quantized orbits, tunneling, and wave-like statistics.
+                </p>
+                <a href="#hqa" class="btn-secondary">Learn More</a>
+            </div>
+            
+            <div class="research-card hover-grow">
+                <div class="research-icon">
+                    <i class="fas fa-wave-square"></i>
+                </div>
+                <h2>Pilot Wave Theory</h2>
+                <p>
+                    Studying de Broglie-Bohm pilot wave interpretation through hydrodynamic analogs,
+                    bridging classical and quantum mechanics.
+                </p>
+                <a href="#pilot-waves" class="btn-secondary">Learn More</a>
+            </div>
+            
+            <div class="research-card hover-grow">
+                <div class="research-icon">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <h2>Chaotic Synchronization</h2>
+                <p>
+                    Examining how coupled droplet systems spontaneously synchronize,
+                    revealing insights into quantum coherence and entanglement analogs.
+                </p>
+                <a href="#synchronization" class="btn-secondary">Learn More</a>
+            </div>
+        </section>
+
+        <section id="current-project" class="current-project">
+            <h2><i class="fas fa-microscope"></i> Current Project</h2>
+            <div class="project-details">
+                <div class="project-description-research">
+                    <h3>Double-Well Potential Dynamics</h3>
+                    <p class="collaboration">
+                        <i class="fas fa-user-friends"></i> Collaboration with Rahil Valani, Oxford University
+                    </p>
+                    <p>
+                        Building on Rahil's previous framework for double-well dynamics, we're establishing experimental 
+                        protocols to observe chaotic synchronization phenomena in walking droplets.
+                    </p>
+                    <div class="project-status">
+                        <h4>Current Status:</h4>
+                        <ul>
+                            <li>Experimental platform construction completed to some degree (but still updating)</li>
+                            <li>Preliminary observations of droplet interactions</li>
+                            <li>Developing quantitative analysis methods</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <div class="image-container">
+                        <img src="assets/images/two-droplets-double-well-coupled.gif" alt="Two droplets moving in an approximately one-dimensional double-well potential with obvious strip ripples, and they are mutually coupled." class="research-image">
+                        <p class="image-caption">Two droplets moving in an approximately one-dimensional double-well potential with obvious strip ripples, and they are mutually coupled.</p>
+                        <img src="assets/images/single-droplet-one-well-return.gif" alt="The return motion of a droplet in a single approximately one-dimensional potential well (cavity), which is a minimum research unit." class="research-image">
+                        <p class="image-caption">The return motion of a droplet in a single approximately one-dimensional potential well (cavity), which is a minimum research unit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="research-details">
+            <article id="walking-droplets" class="research-article">
+                <h2>Walking Droplets</h2>
+                <div class="article-content">
+                    <div class="article-text">
+                        <p>
+                            Millimeter-sized droplets can self-propel across a vertically vibrating fluid bath 
+                            when the vibration amplitude is between the walking threshold (a<sub>w</sub>) and 
+                            Faraday threshold (a<sub>F</sub>). This results from a delicate balance where:
+                        </p>
+                        <ul>
+                            <li><strong>Γ &lt; Γ<sub>w</sub></strong>: Simple bouncing without horizontal motion</li>
+                            <li><strong>Γ<sub>w</sub> ≤ Γ &lt; Γ<sub>F</sub></strong>: Stable walking state</li>
+                            <li><strong>Γ ≥ Γ<sub>F</sub></strong>: Faraday wave instability dominates</li>
+                        </ul>
+                        <p>
+                            Together with the super walking droplets generated at the superimposed frequency that can exhibit wonderful states such as the aggregation of multiple droplets, ultrafast walking, lattice structures, etc., the walking state exhibits remarkable quantum-like features.
+                        </p>
+                    </div>
+                    <div class="article-image">
+                        <img src="assets/images/droplet-walking-80Hz.gif" alt="Droplet walking on vibrating fluid surface (80Hz)" class="research-image">
+                        <p class="image-caption">Droplet walking on vibrating fluid surface (80Hz)</p>
+                    </div>
+                </div>
+            </article>
+            
+            <article id="hqa" class="research-article">
+                <h2>Hydrodynamic Quantum Analogs</h2>
+                <div class="article-content">
+                    <div class="article-text">
+                        <p>
+                            This macroscopic system recreates numerous quantum phenomena with striking fidelity:
+                        </p>
+                        <ul>
+                            <li><strong>Tunneling</strong>: Through potential barriers</li>
+                            <li><strong>Quantum corral</strong>: Circular confinement</li>
+                            <li><strong>Landau levels</strong>: In rotating frames</li>
+                            <li><strong>Hong-Ou-Mandel effect</strong>: Droplet "interference"</li>
+                            <strong>...</strong>
+                        </ul>
+                        <p>
+                            The analog approach provides physical intuition for quantum mechanics while raising 
+                            profound questions about the nature of wave-particle duality.
+                        </p>
+                    </div>
+                    <div class="article-image">
+                        <img src="assets/images/simplest-tunneling-simulation.png" alt="Schematic diagram of the simplest tunneling simulation." class="research-image">
+                        <p class="image-caption">Schematic diagram of the simplest tunneling simulation.</p>
+                    </div>
+                </div>
+            </article>
+            
+            <article id="pilot-waves" class="research-article">
+                <h2>Pilot Wave Theory</h2>
+                <div class="article-content">
+                    <div class="article-text">
+                        <p>
+                            The de Broglie-Bohm interpretation proposes that quantum particles are guided by 
+                            a "pilot wave" that determines their trajectories. Key aspects:
+                        </p>
+                        <ul>
+                            <li>Reintroduced at 1927 Solvay Conference but overshadowed</li>
+                            <li>Revived by walking droplet experiments in 2005</li>
+                            <li>Features non-local quantum potential</li>
+                            <li>Provides deterministic alternative to Copenhagen interpretation</li>
+                        </ul>
+                        <p>
+                            Our work explores how pre-existing wave fields could mediate non-local correlations, 
+                            potentially explaining entanglement through synchronized dynamics.
+                        </p>
+                    </div>
+                    <div class="article-image">
+                        <img src="assets/images/pilot-wave-guiding-droplet-schematic.png" alt="Schematic diagram of a pilot wave guiding a droplet trajectory" class="research-image">
+                        <p class="image-caption">Schematic diagram of a pilot wave guiding a droplet trajectory</p>
+                    </div>
+                </div>
+            </article>
+            
+            <article id="synchronization" class="research-article">
+                <h2>Chaotic Synchronization</h2>
+                <div class="article-content">
+                    <div class="article-text">
+                        <p>
+                            When multiple walking droplets interact through their shared wave field, 
+                            remarkable synchronization emerges:
+                        </p>
+                        <ul>
+                            <li>Phase-locked orbiting in circular confinement</li>
+                            <li>Anti-phase oscillations in double-well potentials</li>
+                            <li>Chaotic synchronization with sensitive dependence</li>
+                            <li>Analogies to quantum coherence phenomena</li>
+                        </ul>
+                        <p>
+                            Current research focuses on quantifying these effects and exploring connections 
+                            to quantum entanglement analogs.
+                        </p>
+                        <p>
+                            This is a simple demonstration of the chaotic synchronization phenomenon, where a coupling term is introduced between the two systems.  
+                        </p>
+                    </div>
+                    <!-- 插入混沌同步动画代码 -->
+                    <!-- 替换原有的 chaos-animation-container 部分 -->
+                    <div class="chaos-animation-container">
+                        <canvas id="chaosSyncCanvas"></canvas>
+                        <div class="animation-controls">
+                            <button onclick="resetAnimation()">
+                                <i class="fas fa-sync-alt"></i> Reset
+                            </button>
+                            <div class="control-group">
+                                <span class="control-label">Trail:</span>
+                                <input type="range" id="trailLength" min="50" max="500" value="200" 
+                                       oninput="updateTrailLength(this.value)">
+                                <span class="trail-value" id="trailValue">200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="research-timeline">
+            <h2><i class="fas fa-project-diagram"></i> Research Trajectory Design</h2>
+            <div class="timeline-container">
+                <hr class="timeline-divider">
+                <div class="timeline-step">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Phase 1: Foundational Work</h3>
+                    <p>Establishing experimental protocols and basic observations</p>
+                </div>
+                <hr class="timeline-divider">
+                <div class="timeline-step">
+                    <i class="fas fa-magnifying-glass"></i>
+                    <h3>Phase 2: Phenomenology</h3>
+                    <p>Characterizing single-droplet quantum analogs</p>
+                </div>
+                <hr class="timeline-divider">
+                <div class="timeline-step">
+                    <i class="fas fa-link"></i>
+                    <h3>Phase 3: Coupled Systems</h3>
+                    <p>Investigating multi-droplet synchronization</p>
+                </div>
+                <hr class="timeline-divider">
+                <div class="timeline-step">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Phase 4: Theory Development</h3>
+                    <p>Connecting observations to quantum foundations</p>
+                </div>
+                <hr class="timeline-divider">
+            </div>
+        </section>
+    </div>
+
+    <footer class="main-footer">
+        <div class="glass-container">
+            <p> 2025 Yuanmei Li | Nanjing University | Last Update: <span id="update-date"></span></p>
+        </div>
+    </footer>
+
+    <script src="js/research-timeline.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>

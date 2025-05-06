@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Yuanmei Li</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+    <canvas id="wave-canvas"></canvas>
+    
+    <div class="glass-container">
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <span class="nav-name">Yuanmei Li</span>
+                <span class="nav-title">Hydrodynamic & Quantum & PILOT</span>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                      <i class="fas fa-sun"></i>
+                    </button>
+                </li>        
+                <li><a href="index.html" class="nav-link hover-underline">Home</a></li>
+                <li><a href="research.html" class="nav-link hover-underline">Research</a></li>
+                <li class="active"><a href="publications.html" class="nav-link hover-underline">Publications</a></li>
+                <li><a href="lab.html" class="nav-link hover-underline">Lab</a></li>
+                <li><a href="blog.html" class="nav-link hover-underline">Blog</a></li>
+                <li><a href="designs.html" class="nav-link hover-underline">Designs</a></li>
+            </ul>
+        </nav>
+
+        <header class="page-header">
+            <h1>Academic Publications</h1>
+            <p class="subtitle">Contributions to hydrodynamic quantum analogs research</p>
+        </header>
+
+        <section class="publication-list">
+            <div class="publication-category">
+                <h2><i class="fas fa-book-open"></i> Research Publications</h2>
+                
+                <div class="publication-item">
+                    <div class="pub-badge in-prep">
+                        <i class="fas fa-pen-fancy"></i> In Preparation
+                    </div>
+                    <h3>Maybe on the way for Chaotic Synchronization in Hydrodynamic Quantum Analogs</h3>
+                    <p class="pub-abstract">
+                        Investigating chaotic synchronization phenomena in coupled walking droplet systems, 
+                        with potential implications for quantum entanglement analogs.
+                    </p>
+                    <div class="pub-links">
+                        <a href="research.html#synchronization" class="pub-link">
+                            <i class="fas fa-project-diagram"></i> Related Research
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="publication-category">
+                <h2><i class="fas fa-chalkboard-teacher"></i> Academic Works</h2>
+                
+                <div class="publication-item">
+                    <div class="pub-badge under-review">
+                        <i class="fas fa-hourglass-half"></i> Unrelated Work
+                    </div>
+                    <h3>Modular Study of a Force-Magnetic Coupling System
+                        </h3>
+                    <p class="pub-authors">Li, Y., Li, Z.</p>
+                    <p class="pub-abstract">
+                        A simple tutorial paper based on a previous competition, which have nothing to do with walking droplets.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="research-statement">
+            <h2><i class="fas fa-pen-nib"></i> Publication Philosophy</h2>
+            <div class="statement-content">
+                <p>
+                    My approach to academic writing emphasizes:
+                </p>
+                <ul>
+                    <li>Rigorous experimental validation before publication</li>
+                    <li>Clear connections between classical and quantum phenomena</li>
+                    <li>Complete documentation for reproducibility</li>
+                    <li>Emphasis on both successful results and informative failures</li>
+                </ul>
+                <p>
+                    Current works in preparation focus on chaotic synchronization effects observed in 
+                    double-well potential experiments. All publications will be announced here upon completion.
+                </p>
+                <div class="publication-cta">
+                    <a href="research.html" class="btn-primary">
+                        <i class="fas fa-microscope"></i> Explore Current Research
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="main-footer">
+        <div class="glass-container">
+            <p> 2025 Yuanmei Li | Nanjing University | Last Update: <span id="update-date"></span></p>
+        </div>
+    </footer>
+
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

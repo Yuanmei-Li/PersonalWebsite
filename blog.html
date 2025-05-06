@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Blog | Yuanmei Li</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <canvas id="wave-canvas"></canvas>
+    
+    <div class="glass-container">
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <span class="nav-name">Yuanmei Li</span>
+                <span class="nav-title">Hydrodynamic & Quantum & PILOT</span>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                      <i class="fas fa-sun"></i>
+                    </button>
+                </li>        
+                <li><a href="index.html" class="nav-link hover-underline">Home</a></li>
+                <li><a href="research.html" class="nav-link hover-underline">Research</a></li>
+                <li><a href="publications.html" class="nav-link hover-underline">Publications</a></li>
+                <li><a href="lab.html" class="nav-link hover-underline">Lab</a></li>
+                <li class="active"><a href="blog.html" class="nav-link hover-underline">Blog</a></li>
+                <li><a href="designs.html" class="nav-link hover-underline">Designs</a></li>      
+            </ul>
+        </nav>
+
+        <header class="page-header">
+            <h1>Research Blog</h1>
+            <p class="subtitle">Notes from my journey through hydrodynamic quantum analogs</p>
+        </header>
+
+        <div class="blog-container">
+            <main class="blog-posts">
+                <!-- 动态内容将在这里渲染 -->
+                <div class="loading-spinner">
+                    <i class="fas fa-spinner fa-spin"></i> Loading posts...
+                </div>
+            </main>
+            
+            <aside class="blog-sidebar">
+                <div class="sidebar-widget">
+                    <h3>About This Blog</h3>
+                    <p>
+                        This is my informal research notebook - sharing successes, 
+                        failures, and everything in between. Posts range from:
+                    </p>
+                    <ul>
+                        <li>Major experimental results</li>
+                        <li>Technical how-tos</li>
+                        <li>Equipment hacking</li>
+                        <li>Humorous lab mishaps</li>
+                        <li>Theoretical insights</li>
+                        <li>Code simulations</li>
+                        <li>Observation phenomena</li>
+                        <li>Overall setups</li>
+                        <li>Daily life in the lab</li>
+                        <li>Personal homepage construction</li>
+                    </ul>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>Categories</h3>
+                    <ul class="category-filter">
+                        <li><a href="#" data-category="all">All (20)</a></li>
+                        <li><a href="#" data-category="Droplet Generator">Droplet Generator (3)</a></li>
+                        <li><a href="#" data-category="Observation Phenomenon">Observation Phenomenon (2)</a></li>
+                        <li><a href="#" data-category="Research Interest">Research Interest (2)</a></li>
+                        <li><a href="#" data-category="Experimental Results">Experimental Results (1)</a></li>
+                        <li><a href="#" data-category="Experiment">Experiment (1)</a></li>
+                        <li><a href="#" data-category="Public Sharing">Equipment Salvage (1)</a></li>
+                        <li><a href="#" data-category="Vibration System">Vibration System (1)</a></li>
+                        <li><a href="#" data-category="Theoretical Thinking">Theoretical Thinking (1)</a></li>
+                        <li><a href="#" data-category="Code Simulation">Code Simulation (1)</a></li>
+                        <li><a href="#" data-category="Learning">Learning (1)</a></li>
+                        <li><a href="#" data-category="Research Start">Research Start (1)</a></li>
+                        <li><a href="#" data-category="Modeling">Modeling (1)</a></li>
+                        <li><a href="#" data-category="Overall Setup">Overall Setup (1)</a></li>
+                        <li><a href="#" data-category="Daily Life">Daily Life (1)</a></li>
+                        <li><a href="#" data-category="Personal Homepage">Personal Homepage (1)</a></li>
+                        <li><a href="#" data-category="Public Sharing">Public Sharing (1)</a></li>
+                    </ul>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>Popular Tags</h3>
+                    <div class="tag-cloud-filter">
+                        <a href="#" data-tag="all">All</a>
+                        <a href="#" data-tag="pilot-wave-theory">pilot-wave-theory</a>
+                        <a href="#" data-tag="start">start</a>
+                        <a href="#" data-tag="droplet-observation">droplet-observation</a>
+                        <a href="#" data-tag="droplet-generator">droplet-generator</a>
+                        <a href="#" data-tag="learning">learning</a>
+                        <a href="#" data-tag="setup">setup</a>
+                        <a href="#" data-tag="experimental-platform">experimental-platform</a>
+                        <a href="#" data-tag="experimental-success">experimental-success</a>
+                        <a href="#" data-tag="experimental-phenomena">experimental-phenomena</a>
+                        <a href="#" data-tag="solidworks">solidworks</a>
+                        <a href="#" data-tag="theoretical-reflection">theoretical-reflection</a>
+                        <a href="#" data-tag="chaotic-synchronization">chaotic-synchronization</a>
+                        <a href="#" data-tag="modeling-failure">modeling-failure</a>
+                        <a href="#" data-tag="design-failure">design-failure</a>
+                        <a href="#" data-tag="design-breakthrough">design-breakthrough</a>
+                        <a href="#" data-tag="experiment">experiment</a>
+                        <a href="#" data-tag="encapsulated-droplets">encapsulated-droplets</a>
+                        <a href="#" data-tag="data-processing">data-processing</a>
+                        <a href="#" data-tag="code-simulation">code-simulation</a>
+                        <a href="#" data-tag="kittens">kittens</a>
+                        <a href="#" data-tag="personal-homepage">personal-homepage</a>
+                        <a href="#" data-tag="sharing">sharing</a>
+                        <a href="#" data-tag="translation-stage">personal-homepage</a>
+                        <a href="#" data-tag="equipment-salvage">sharing</a>
+                    </div>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>Subscribe</h3>
+                    <p>Get new posts delivered to your inbox:</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn-secondary">Subscribe</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="glass-container">
+            <p> 2025 Yuanmei Li | Nanjing University | Last Update: <span id="update-date"></span></p>
+        </div>
+    </footer>
+
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/blog-filter.js"></script>
+
+</body>
+</html>

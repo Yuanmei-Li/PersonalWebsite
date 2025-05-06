@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuanmei Li | Quantum Hydrodynamics Researcher</title>
+    <meta name="description" content="Undergraduate physics researcher exploring hydrodynamic quantum analogs and pilot wave systems">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+    <!-- Animated background -->
+    <canvas id="wave-canvas"></canvas>
+    
+    <!-- Main container with glass morphism effect -->
+    <div class="glass-container">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <span class="nav-name">Yuanmei Li</span>
+                <span class="nav-title">Hydrodynamic & Quantum & PILOT</span>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                      <i class="fas fa-sun"></i>
+                    </button>
+                </li>        
+                <li class="active"><a href="index.html" class="nav-link hover-underline">Home</a></li>
+                <li><a href="research.html" class="nav-link hover-underline">Research</a></li>
+                <li><a href="publications.html" class="nav-link hover-underline">Publications</a></li>
+                <li><a href="lab.html" class="nav-link hover-underline">Lab</a></li>
+                <li><a href="blog.html" class="nav-link hover-underline">Blog</a></li>
+                <li><a href="designs.html" class="nav-link hover-underline">Designs</a></li>           
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Exploring Quantum Answer<br>Through Walking Droplets</h1>
+                <p class="hero-text">
+                    Undergraduate researcher passionate about hydrodynamic quantum analogs, 
+                    pilot wave systems, and their mysterious connections to quantum mechanics.
+                </p>
+                <div class="hero-buttons">
+                    <a href="research.html" class="btn-primary pulse-on-hover">My Research</a>
+                    <a href="#about" class="btn-secondary">About Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/hero-droplet.png" alt="Walking droplet simulation" class="floating">
+            </div>
+        </header>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="glass-container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/images/profile.jpg" alt="Yuanmei Li" class="profile-photo">
+                    <div class="contact-card"> <!-- 新增卡片容器 -->
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> lymphy@smail.nju.edu.cn</p>
+                            <p><i class="fas fa-graduation-cap"></i> Physics '26, Nanjing University</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2>Journey Toward Quantum Realities</h2>
+                    <p>
+                        My fascination with quantum mechanics began with its philosophical puzzles - 
+                        the measurement problem, wavefunction collapse, and the nature of reality itself. 
+                        This led me to hydrodynamic quantum analogs, where millimeter-scale droplets 
+                        walking on vibrating fluids exhibit uncanny quantum-like behavior.
+                    </p>
+                    <p>
+                        Currently collaborating with Rahil Valani (Oxford) on double-well potential dynamics, 
+                        I'm working to bridge theoretical models with experimental observations of 
+                        synchronization in walking droplets. Each small finding feels like decrypting 
+                        nature's subtle hints about deeper quantum connections.
+                    </p>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Experimental Design</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">3D Modeling</span>
+                        <span class="skill-tag">Precision Mechanics</span>
+                        <span class="skill-tag">Scientific Visualization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links">
+        <div class="glass-container">
+            <div class="link-cards">
+                <a href="research.html" class="link-card hover-grow">
+                    <i class="fas fa-water"></i>
+                    <h3>Research Focus</h3>
+                    <p>Walking droplets, HQA, pilot waves, and synchronization phenomena</p>
+                </a>
+                <a href="lab.html" class="link-card hover-grow">
+                    <i class="fas fa-flask"></i>
+                    <h3>Experimental Setup</h3>
+                    <p>Vibration platform and droplet generator with technical specifications</p>
+                </a>
+                <a href="designs.html" class="link-card hover-grow">
+                    <i class="fas fa-tools"></i>
+                    <h3>Open Designs</h3>
+                    <p>Low-cost droplet generating methods for community use</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="glass-container">
+            <p> 2025 Yuanmei Li | Nanjing University | Last Update: <span id="update-date"></span></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/analytics.js"></script>
+</body>
+</html>

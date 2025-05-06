@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Designs | Yuanmei Li</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css">
+    <style>
+       .project-description p {
+            width: 70%;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Canvas Background -->
+    <canvas id="wave-canvas"></canvas>
+
+    <!-- Main Container -->
+    <div class="glass-container">
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <span class="nav-name">Yuanmei Li</span>
+                <span class="nav-title">Hydrodynamic Quantum Systems</span>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                      <i class="fas fa-sun"></i>
+                    </button>
+                </li>        
+                <li><a href="index.html" class="nav-link hover-underline">Home</a></li>
+                <li><a href="research.html" class="nav-link hover-underline">Research</a></li>
+                <li><a href="publications.html" class="nav-link hover-underline">Publications</a></li>
+                <li><a href="lab.html" class="nav-link hover-underline">Lab</a></li>
+                <li><a href="blog.html" class="nav-link hover-underline">Blog</a></li>
+                <li class="active"><a href="designs.html" class="nav-link hover-underline">Designs</a></li>     
+            </ul>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="page-header">
+            <h1>Open Designs</h1>
+            <p class="subtitle">Sharing small designs to help more people in research</p>
+        </header>
+
+        <!-- Open Science Intro -->
+        <section class="design-intro">
+            <div class="intro-content">
+                <h2><i class="fas fa-share-alt"></i> Open Science Philosophy</h2>
+                <p>
+                    As an undergraduate student, I'm enthusiastic about designing and improving experimental instruments. 
+                    I have many creative ideas during the design process and also love exploring theories. 
+                    I believe that sharing these designs can help other researchers, so I'm sharing them here.
+                </p>
+            </div>
+        </section>
+
+        <!-- Droplet Generator Project -->
+        <section id="droplet-generator" class="design-project">
+            <div class="project-header">
+                <h2><i class="fas fa-tint"></i> Modular Droplet Generator</h2>
+                <div class="project-meta">
+                    <span><i class="fas fa-calendar-alt"></i> Last updated: 2025-05-07</span>
+                    <span><i class="fas fa-tags"></i> Tags: DIY, low-cost, open-hardware</span>
+                </div>
+            </div>
+
+            <div class="project-content">
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>
+                        This modular droplet generator is based on the design of Harris's 
+                        "A low cost, precise piezoelectric droplet on demand generator" 
+                        (https://doi.org/10.1007/s00348-015-1950-6). 
+                        I've made some improvements to make it more cost - effective and easier to use.
+                    </p>
+                    <p>
+                        The cost of this design is extremely low. 
+                        Excluding laboratory infrastructure like peristaltic pumps or easily borrowable items, 
+                        other components cost less than $10 (assuming access to a 3D printer). 
+                        Even without a 3D printer, it's not a big issue as I've replaced the delicate parts 
+                        with inexpensive industrial products. 
+                        It has a split - type design, which is easy to fabricate, assemble, modify, and move.
+                    </p>
+                    <p>
+                        The main design feature is the use of various inexpensive industrial products 
+                        in a modular way to replace the delicate structures of the original model. 
+                        This ensures precise control of droplet size, similar to the original design principle. 
+                        For detailed information, please refer to the design drawings and instructions.
+                    </p>
+                    <div class="project-downloads">
+                        <h3>Download Files</h3>
+                        <div class="download-cards">
+                            <a href="#" class="download-card" onclick="downloadMultipleFiles(['assets/downloads/GENERATOR.STEP', 'assets/downloads/RESERVOIR.STEP', 'assets/downloads/RESERVOIR_COVER.STEP']); return false;">
+                                <i class="fas fa-cube"></i>
+                                <h4>3D Model (STEP)</h4>
+                                <p>Complete assembly for CAD software</p>
+                            </a>
+                            <a href="assets/downloads/bom.jpg" class="download-card">
+                                <i class="fas fa-list-ol"></i>
+                                <h4>Bill of Materials</h4>
+                                <p>All components with sourcing info (mostly from China)</p>
+                            </a>
+                            <a href="assets/downloads/assembly-guide.pdf" class="download-card">
+                                <i class="fas fa-book"></i>
+                                <h4>Assembly Guide</h4>
+                                <p>Step - by - step instructions</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Design Highlights -->
+            <h3>Design Highlights</h3>
+            <div class="design-features">
+                <div class="feature">
+                    <i class="fas fa-cubes"></i>
+                    <h4>Modular Architecture</h4>
+                    <p>Separate fluid delivery, release mechanism, and control modules allow for easy customization and repair.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h4>Cost - Effective</h4>
+                    <p>Most components cost less than $10, excluding some laboratory infrastructure.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-wrench"></i>
+                    <h4>Easy to Assemble</h4>
+                    <p>Designed for easy assembly and modification with simple tools.</p>
+                </div>
+            </div>
+
+            <!-- Gallery -->
+            <div class="project-gallery">
+                <div class="gallery-item">
+                    <img src="assets/images/designs/generator-thumb1.jpg" alt="Droplet generator assembly" data-caption="Fully assembled droplet generator showing all modules">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/designs/generator-schematic-thumb.jpg" alt="Structure schematic" data-caption="Schematic diagram of the droplet generator structure">
+                </div>
+            </div>
+
+            <!-- Notes -->
+            <div class="project-notes">
+                <h3>Notes</h3>
+                <p>
+                    If possible, it's recommended to use a stereolithography 3D printer. 
+                    If using a filament - based 3D printer, set the fill rate to 100% and perform post - curing 
+                    to prevent water leakage and ensure proper vibration transfer of the piezoelectric ceramic buzzer.
+                </p>
+                <p>
+                    You can check the previous design versions on the Blog page, which had various issues. 
+                    I'm currently testing oleophobic coatings to make liquid droplets roll in the lab. 
+                    As there's no reliable super - oleophobic coating for silicone oil yet, I'm still experimenting and reading papers. 
+                    There might be some potential here, but it's hard to tell for now.
+                </p>
+            </div>
+        </section>
+
+        <!-- Handmade Low-Cost Stable Vibration Platform Project -->
+        <section id="vibration-platform" class="design-project">
+            <div class="project-header">
+                <h2><i class="fas fa-wave-square"></i> Handmade Low-Cost Stable Vibration Platform</h2>
+                <div class="project-meta">
+                    <span><i class="fas fa-calendar-alt"></i> Status: In preparation</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section class="community-section">
+            <h2><i class="fas fa-users"></i> Community Interaction</h2>
+            <p>
+                Welcome to communicate with me if you're interested in these designs or have any suggestions for improvement!
+            </p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="glass-container">
+            <p> 2025 Yuanmei Li | Nanjing University | Last Update: <span id="update-date"></span></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lg-zoom/2.7.1/lg-zoom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lg-fullscreen/2.7.1/lg-fullscreen.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            lightGallery(document.getElementById('generator-gallery'), {
+                plugins: [lgZoom, lgFullscreen],
+                speed: 500,
+                download: false
+            });
+        });
+
+        function downloadMultipleFiles(filePaths) {
+            filePaths.forEach(function(filePath) {
+                var a = document.createElement('a');
+                a.href = filePath;
+                a.download = filePath.split('/').pop();
+                a.click();
+            });
+        }
+    </script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/analytics.js"></script>
+</body>
+</html>
