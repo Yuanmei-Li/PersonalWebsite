@@ -1,0 +1,280 @@
+{
+    "posts": [
+        {
+            "id": 21,
+            "title": "Website Almost Ready",
+            "date": "2025-05-07",
+            "categories": ["Personal Homepage"],
+            "tags": ["personal-homepage"],
+            "content": "The text and framework of the website are finally done. I just need to make some modifications, add pictures, videos, and supplementary files, and it will be ready to go live! I have never written so much codes before!!!",
+            "images": []
+        },
+        {
+            "id": 20,
+            "title": "Experiment in Puzzle Again",
+            "date": "2025-05-03",
+            "categories": ["Vibration System"],
+            "tags": ["design-failure"],
+            "content": "I found that the subwoofer I used had a beat frequency phenomenon and perhaps nonlinear noise peaks that could not be solved no matter how many methods I tried. The new silicone oil generation scheme that was originally well planned also encountered difficulties due to current technical limitations. In my exploration, I disassembled several speaker enclosures from old speakers (which had mediocre quality to begin with and were heavily used by me) to study their internal structures. Their vibration mechanisms and mounting designs gave me inspiration - perhaps I could either learn from their structures or directly repurpose some components. This hands-on investigation makes me hopeful for better results. Maybe I should consider making a vibration table by hand and reading papers to draw inspiration from other disciplines to find a satisfactory silicone oil layer.",
+            "images": [
+                {
+                    "src": "assets/images/blog/dismantled_speakers.jpg",
+                    "alt": "Dismantled speaker components",
+                    "caption": "The disassembled speakers revealing their internal structures"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Shared my Research with the Class",
+            "date": "2025-04-30",
+            "categories": ["Public Sharing"],
+            "tags": ["sharing"],
+            "content": "I shared my research with teacher and classmates in the nuclear physics course report. It is mainly divided into four parts: walking droplets, HQA, pilot-wave theory, and chaotic synchronization. Everyone is very interested!",
+            "images": []
+        },
+        {
+            "id": 18,
+            "title": "Encounter with the Kittens",
+            "date": "2025-04-30",
+            "categories": ["Daily Life"],
+            "tags": ["kittens", "lab-life"],
+            "content": "I've been very busy and tired these days. On a late - night cross - campus commute back to the lab, the kittens downstairs in the lab chased after me and rubbed against me. It made me feel alive again. Feeding them was so fulfilling.",
+            "images": [
+                {
+                  "src": "assets/images/blog/cute_kittens_1.jpg",
+                  "alt": "Cute kittens",
+                  "caption": "The cute kitten downstairs in the lab"
+                },
+                {
+                  "src": "assets/images/blog/cute_kittens_2.jpg",
+                  "alt": "Cute kittens playing",
+                  "caption": "The kitten is looking at me"
+                },
+                {
+                  "src": "assets/images/blog/cute_kittens_3.jpg",
+                  "alt": "Cute kittens sleeping",
+                  "caption": "The kittens playing together"
+                }
+              ]
+        },
+        {
+            "id": 17,
+            "title": "New Idea for Encapsulated Droplets",
+            "date": "2025-04-28",
+            "categories": ["Droplet Research"],
+            "tags": ["encapsulated-droplets", "innovation"],
+            "content": "I bought the materials and started thinking about encapsulated droplets. However, I found it impossible to make one liquid attach to silicone oil and enter another layer using sodium alginate and calcium lactate. After many attempts and thoughts, I came up with an idea: use an oleophobic layer to make a multi - well device, cut large silicone oil droplets, select small ones, and let them slide down to the liquid surface. I've placed an order and am looking forward to success!",
+            "images": []
+        },
+        {
+            "id": 16,
+            "title": "Data Processing with Code",
+            "date": "Retroactive",
+            "categories": ["Code Simulation"],
+            "tags": ["data-processing", "code-simulation"],
+            "content": "I used code to process data. It's been a while since I last used MATLAB and Python, and it was quite interesting to get back into it. This kind of work with tangible output is very rewarding. However, I still need to figure out how to solve the problem of the droplet generator.",
+            "images": []
+        },
+        {
+            "id": 15,
+            "title": "Droplet Generator Test and New Idea",
+            "date": "Retroactive",
+            "categories": ["Droplet Generator"],
+            "tags": ["droplet-generator", "encapsulated-droplets"],
+            "content": "The purchased parts finally arrived, and I tested the droplet generator. Unfortunately, the results were not ideal. There was some leakage even though I had a high printing density, and the vibration of the piezoelectric ceramic buzzer couldn't be well transmitted to the nozzle. As a result, the surface tension of the droplets was much larger than the nozzle, and there was an infiltration phenomenon. I thought about making encapsulated droplets. If successful, the droplets could be more precise and reusable, and they could also simulate the spin phenomenon in quantum mechanics to some extent. I plan to buy calcium lactate and sodium alginate to try this idea, and the original droplet generator will be put on hold for now.",
+            "images": []
+        },
+        {
+            "id": 14,
+            "title": "Experimental Data Collection",
+            "date": "Retroactive",
+            "categories": ["Experiment"],
+            "tags": ["experiment"],
+            "content": "I conducted an experiment and bought a great accelerometer, which made the experiment more quantitative. To avoid the influence of people and excessive noise and to make the droplets more visible, I conducted the experiment from evening through the night until dawn. I measured a lot of data. It was tiring but very rewarding. I feel more worthy of my research direction.",
+            "images": []
+        },
+        {
+            "id": 13,
+            "title": "Breakthrough in Droplet Generator Design",
+            "date": "Retroactive",
+            "categories": ["Droplet Generator"],
+            "tags": ["droplet-generator", "design-breakthrough"],
+            "content": "After a long period of frustration, I had an epiphany! I noticed that the 3D printer nozzle in the lab was similar to what I needed. It has the same internal structure, comes with a thread, and has high precision at a low cost. I also found a nut insert to fix it. I adjusted the generator structure accordingly. I also realized that I could use a regular lifting platform instead of a custom waterproof stand, which made the nozzle more flexible and could be fixed by a tripod. Now, I'm just waiting for the purchased parts to arrive. For more details, please <a href=\"designs.html\">click here</a>.",
+            "images": []
+        },
+        {
+            "id": 13,
+            "title": "Salvaging a 2D Translation Stage from Old Equipment",
+            "date": "Retroactive",
+            "categories": ["Equipment Salvage"],
+            "tags": ["translation-stage", "equipment-salvage"],
+            "content": "To obtain a 2D translation stage, I discovered an old piece of equipment in the lab with a magnetic block attachment. After careful examination, I realized I could remove the translation stage from this magnetic base. It took tremendous effort, but I succeeded! I completely disassembled the back and rebuilt it using the original components. During the process, I discovered the internal structure wasn't as complex as I imagined - in fact, it would be entirely possible to hand-make one. Mechanical engineering is truly fascinating! For more details, please <a href=\"designs.html\">click here</a>.",
+            "images": [
+                {
+                    "src": "assets/images/blog/magnetic_translation_stage.jpg",
+                    "alt": "Translation stage with magnetic base",
+                    "caption": "The original translation stage attached to a magnetic block"
+                },
+                {
+                    "src": "assets/images/blog/disassembly_process.jpg",
+                    "alt": "Disassembling the translation stage",
+                    "caption": "The challenging disassembly process in progress"
+                },
+                {
+                    "src": "assets/images/blog/successful_removal.jpg",
+                    "alt": "Successfully removed translation stage",
+                    "caption": "The translation stage successfully separated from its magnetic base"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Struggles in Droplet Generator Design",
+            "date": "Retroactive",
+            "categories": ["Droplet Generator"],
+            "tags": ["droplet-generator", "design-failure"],
+            "content": "I designed several versions of the droplet generator and kept asking manufacturers for prices. However, I faced many difficulties. Metal 3D printing was expensive and had low precision, especially for the high - precision nozzle. I also considered having holes drilled in metal parts, but the internal structure could only be straight, and it was also expensive. I'm really frustrated.",
+            "images": [
+                {
+                  "src": "assets/images/blog/failed_droplet_generator_design_1.jpg",
+                  "alt": "Failed droplet generator design",
+                  "caption": "One of the failed droplet generator designs"
+                },
+                {
+                  "src": "assets/images/blog/failed_droplet_generator_design_2.jpg",
+                  "alt": "Failed droplet generator design",
+                  "caption": "Another failed droplet generator design"
+                },
+                {
+                  "src": "assets/images/blog/failed_droplet_generator_design_3.jpg",
+                  "alt": "Failed droplet generator design",
+                  "caption": "Another failed droplet generator design"
+                }
+              ]
+        },
+        {
+            "id": 10,
+            "title": "Initial Exploration of Chaotic Synchronization",
+            "date": "Retroactive",
+            "categories": ["Observation Phenomenon"],
+            "tags": ["chaotic-synchronization", "droplet-observation"],
+            "content": "I conducted a preliminary exploration of chaotic synchronization using a linear track and observed the back - and - forth movement of droplets. I found that the size of the droplets seemed to be very critical. I think it's time to start considering the design of a droplet generator. I've already read Harris's paper several times.",
+            "images": []
+        },
+        {
+            "id": 9,
+            "title": "Reflection on Pilot - Wave Theory",
+            "date": "Retroactive",
+            "categories": ["Theoretical Thinking"],
+            "tags": ["pilot-wave-theory", "theoretical-reflection"],
+            "content": "I was suddenly confused about my research on walking droplets and the pilot - wave theory. I was very distressed for several days. Fortunately, I figured it out! The sudden confusion might have come from the difficulties in the experiment. I began to doubt whether the de Broglie - Bohm pilot - wave theory could adequately explain quantum phenomena because the non - locality and superluminal speed seemed unreasonable. However, I realized that if we consider the issues of chaotic synchronization and wave field memory, the entanglement phenomenon can be well explained. I hope I can work towards this ultimate goal. For more details, please <a href=\"research.html#bottom\">click here</a>.",
+            "images": []
+        },
+        {
+            "id": 8,
+            "title": "Failure in SolidWorks Modeling",
+            "date": "Retroactive",
+            "categories": ["Modeling"],
+            "tags": ["solidworks", "modeling-failure"],
+            "content": "I tried to use SolidWorks to model and print the internal structure of the petri dish, aiming to extend Nachbin's 2D structure to 3D and achieve intuitive chaotic synchronization in a large range. However, I failed. My simulation results were also not satisfactory. It seems that 2D simulation is still quite difficult. Although I wasted a lot of time, I significantly improved my SolidWorks skills.",
+            "images": [
+                {
+                  "src": "assets/images/blog/solidworks_failed_design_1.jpg",
+                  "alt": "Failed SolidWorks design",
+                  "caption": "One of the failed SolidWorks designs"
+                },
+                {
+                    "src": "assets/images/blog/solidworks_failed_design_2.jpg",
+                    "alt": "Failed SolidWorks design",
+                    "caption": "Another failed SolidWorks design"
+                },
+                {
+                    "src": "assets/images/blog/solidworks_failed_design_3.jpg",
+                    "alt": "Failed SolidWorks design",
+                    "caption": "Another failed SolidWorks design"
+                }
+              ]
+        },
+        {
+            "id": 7,
+            "title": "Beautiful Experimental Phenomena",
+            "date": "Retroactive",
+            "categories": ["Observation Phenomenon"],
+            "tags": ["experimental-phenomena"],
+            "content": "I made a transparent plate with red and blue stripes of Faraday wavelength width according to the papers of Bush's group. I replaced the petri dish with a black one and used an industrial high - speed camera and a high - power light source. As a result, I obtained very beautiful experimental phenomena. I'm so excited!",
+            "images": [
+                {
+                  "src": "assets/images/blog/ordinary_droplet.jpg",
+                  "alt": "Ordinary droplet",
+                  "caption": "An ordinary walking droplet"
+                },
+                {
+                    "src": "assets/images/blog/super_walking_droplet.jpg",
+                    "alt": "Super walking droplet",
+                    "caption": "A super walking droplet"
+                }
+              ]
+        },
+        {
+            "id": 6,
+            "title": "Success in Generating Walking Droplets",
+            "date": "Retroactive",
+            "categories": ["Experimental Results"],
+            "tags": ["walking-droplets", "experimental-success"],
+            "content": "On Rahil's suggestion, I successfully generated walking droplets at a single frequency and super walking droplets at a superimposed frequency with the help of a power amplifier. I'm so delighted!",
+            "images": []
+        },
+        {
+            "id": 5,
+            "title": "Initial Setup of the Experimental Platform",
+            "date": "Retroactive",
+            "categories": ["Overall Setup"],
+            "tags": ["experimental-platform", "setup"],
+            "content": "I built the initial version of the experimental platform. I connected a subwoofer to a signal generator. I could see some standing waves and bouncing droplets that couldn't last long, but no walking droplets. The subwoofer I got was broken at first, but I fixed it!",
+            "images": [
+                {
+                  "src": "assets/images/blog/standing_wave.jpg",
+                  "alt": "Standing wave",
+                  "caption": "The standing wave observed on the experimental platform"
+                }
+              ]
+        },
+        {
+            "id": 4,
+            "title": "Start of HQA Research",
+            "date": "Winter 2025",
+            "categories": ["Research Start"],
+            "tags": ["start"],
+            "content": "I wrote to Rahil and started a collaboration. With Rahil's generous and helpful support, I officially began my HQA research.",
+            "images": []
+        },
+        {
+            "id": 3,
+            "title": "Learning from Bush's Materials",
+            "date": "2024",
+            "categories": ["Learning"],
+            "tags": ["learning"],
+            "content": "I studied the course PDFs shared on Bush's personal homepage and read papers, finding a lot of fun in the process.",
+            "images": []
+        },
+        {
+            "id": 2,
+            "title": "Discovery of HQA",
+            "date": "2022",
+            "categories": ["Research Interest"],
+            "tags": ["start"],
+            "content": "While searching for papers on Faraday waves for the CUPT competition, I came across papers on HQA. I was pleasantly surprised to find that this was exactly the interpretation of quantum mechanics I had been looking forward to. I was so excited that I stayed up all night reading the papers and began to acquire skills to arm myself for this research.",
+            "images": []
+        },
+        {
+            "id": 1,
+            "title": "Interest in Physics",
+            "date": "2017",
+            "categories": ["Research Interest"],
+            "tags": ["physics-interest", "hidden-variable-theory"],
+            "content": "In 2017, after reading some popular science books, I became fascinated by the hidden variable theory and developed an interest in physics. I decided to pursue a career in physics research in the future.",
+            "images": []
+        }
+    ]
+}
