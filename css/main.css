@@ -115,6 +115,7 @@ body {
     color: var(--ocean-blue);
 }
 
+
 .hover-underline::after {
     content: '';
     position: absolute;
@@ -1841,12 +1842,6 @@ body.day-mode {
     transform: scale(1.02);
 }
 
-.gallery-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
 
 /* 图片查看器样式 */
 .image-viewer {
@@ -1951,4 +1946,104 @@ body.day-mode {
     scrollbar-width: auto !important;
   }
 
+  /* Walker Gallery Styles */
+  .walker-gallery {
+    margin: 4rem 0;
+    padding: 2rem;
+    background: var(--transparent-dark);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.gallery-swiper {
+    width: 100%;
+    height: auto; /* 修改为auto */
+    margin-top: 2rem;
+    padding-bottom: 50px; /* 为caption留出空间 */
+}
+
+.gallery-caption {
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--ocean-blue);
+    font-size: 0.9rem;
+    padding: 0 5%; /* 调整padding值 */
+    height: auto;
+    min-height: auto; /* 调整min-height值 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gallery-swiper {
+        height: 300px;
+    }
+}
+
+.gallery-disclaimer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: rgba(62, 146, 204, 0.1);
+    border-left: 3px solid var(--ocean-blue);
+    font-size: 0.85rem;
+    color: var(--word1);
+}
+
+.gallery-disclaimer i {
+    color: var(--ocean-blue);
+    margin-right: 0.5rem;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .swiper-pagination {
+    bottom: 4rem !important;  /* 离底更远，即往上挪 */
+  }
   
+  
+  .media-wrapper {
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 4 / 3; /* 固定比例，防止扭曲 */
+    background-color: #eee;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .media-wrapper img,
+  .media-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保证铺满但不变形 */
+    display: block;
+    border-radius: 12px;
+  }
+  
+  .gallery-caption {
+    margin-top: 0.75rem;
+    text-align: center;
+    font-size: 0.95rem;
+    color: var(--light-wave);
+    max-width: 600px;
+  }
+  
+
+
+.highlight-link {
+    background-color: rgba(255, 255, 255, 0.806); /* 荧光笔底色，可按需调整颜色 */
+    padding: 2px 4px; /* 内边距，使底色与文字有一定间距 */
+    border-radius: 3px; /* 圆角效果 */
+}
