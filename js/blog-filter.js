@@ -1,14 +1,15 @@
 document.addEventListener('DOMContentLoaded', async function() {
     try {
         // 1. 加载文章数据
-        const response = await fetch('/data/posts.json');
-        if (!response.ok) {
-            throw new Error(`Failed to fetch post data. HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
-        if (!data.posts ||!Array.isArray(data.posts)) {
-            throw new Error('Invalid post data format. Expected an object with a "posts" array.');
-        }
+        // helper.js
+        fetch('/data/posts.json')
+          .then(response => response.json())
+          .then(data => {
+            console.log("JSON 数据:", data);
+            // 在这里使用 data（例如初始化页面）
+          })
+           .catch(error => console.error("加载失败:", error));
+
         
         // 2. 渲染文章
         renderPosts(data.posts);
