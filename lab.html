@@ -40,6 +40,90 @@
             <p class="subtitle">Custom apparatus for hydrodynamic quantum analogs research at National Demonstration Center For Experimental Physics Education, Nanjing University</p>
         </header>
 
+        <section class="walker-gallery">
+            <h2><i class="fas fa-video"></i> Gallery</h2>
+            
+            <div class="swiper gallery-swiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Example video 1 -->
+                    <div class="swiper-slide">
+                        <div class="media-wrapper">
+                            <video controls autoplay loop muted>
+                                <source src="assets/gallery/walking-droplets.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="gallery-caption">Walking droplets exhibiting various dynamic states, such as mutual attraction and rotation, aggregation of multiple droplets, fixed coupling of a droplet pair, and free movement of a single droplet.  </div>
+                    </div>
+                    
+                    <!-- Example video 2 -->
+                    <div class="swiper-slide">
+                        <div class="media-wrapper">
+                            <video controls autoplay loop muted>
+                                <source src="assets/gallery/superwalking-droplets-low.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="gallery-caption">Superwalking droplets in a low-energy state tend to move together; if the energy is even lower, an interesting stop-and-go motion occurs.  </div>
+                    </div>
+
+                    <!-- Example video 3 -->
+                    <div class="swiper-slide">
+                        <div class="media-wrapper">
+                            <video controls autoplay loop muted>
+                                <source src="assets/gallery/superwalking-droplets-high.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>    
+                        </div>
+                        <div class="gallery-caption">Superwalking droplets at higher energy levels move very rapidly, colliding without disappearing, and stable droplet pairs can form while colliding and advancing.  </div>
+                    </div>
+                    
+                    <!-- Example video 4 -->
+                    <div class="swiper-slide">
+                        <div class="media-wrapper">
+                            <img src="assets/gallery/one-walking-droplet.jpg" alt="A single walking droplet">
+                        </div>
+                        <div class="gallery-caption">A single walking droplet.  </div>
+                    </div>
+
+                    <!-- Example video 5 -->
+                    <div class="swiper-slide">
+                        <div class="media-wrapper">
+                            <img src="assets/gallery/multiple-walking-droplets.jpg" alt="Multiple walking droplets.">
+                        </div>
+                        <div class="gallery-caption">Multiple walking droplets.  </div>
+                    </div>
+                    
+                    <!-- Example video 6 -->
+                    <div class="swiper-slide">
+                        <div class="media-wrapper">
+                            <img src="assets/gallery/multiple-superwalking-droplets.jpg" alt="Multiple superwalking droplets.">
+                        </div>
+                        <div class="gallery-caption">Multiple superwalking droplets.  </div>
+                    </div>
+
+                    <!-- Example video 7 -->
+                    <div class="swiper-slide">
+                        <div class="media-wrapper">
+                            <img src="assets/gallery/halo-droplet.jpg" alt="A beautifully illuminated walking droplet forming a halo.">
+                        </div>
+                        <div class="gallery-caption">A beautifully illuminated walking droplet forming a halo.  
+                        </div>
+                    </div>
+                    
+                    <!-- Add more videos as needed -->
+                </div>
+                <div class="gallery-disclaimer">
+                    <p><i class="fas fa-info-circle"></i> Note: Some images were captured without tripod support. I'm continuously improving our documentation quality and will update these visuals in future iterations.</p>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
         <section class="equipment-section">
             <div class="equipment-card">
                 <div class="equipment-header">
@@ -260,5 +344,37 @@
     
     <script src="js/particles.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        // Initialize Swiper for the gallery
+        const gallerySwiper = new Swiper('.gallery-swiper', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 20,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            }
+        });
+    </script>
+
+
 </body>
 </html>
