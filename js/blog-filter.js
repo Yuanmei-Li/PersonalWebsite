@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', async function() {
     try {
         // 1. 加载文章数据
-        const response = await fetch('/data/posts.json');
+        const response = await fetch('/PersonalWebsite/data/posts.json');
         if (!response.ok) {
             throw new Error(`Failed to fetch post data. HTTP error! status: ${response.status}`);
         }
